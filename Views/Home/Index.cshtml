@@ -3,38 +3,70 @@
 }
 <br>
 <nav>
-  <div class="nav nav-tabs" id="nav-tab" role="tablist">
-    <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Clientes</button>
-    <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Productos</button>
-    <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Facturas</button>
-    
-  </div>
+    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+        <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button"
+            role="tab" aria-controls="nav-home" aria-selected="true">Clientes</button>
+        <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button"
+            role="tab" aria-controls="nav-profile" aria-selected="false">Productos</button>
+        <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button"
+            role="tab" aria-controls="nav-contact" aria-selected="false">Facturas</button>
+
+    </div>
 </nav>
 <div class="tab-content" id="nav-tabContent">
-  <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
-        <table class="table">
-  <thead>
-    <tr>
-      <th scope="col">#</th>
-      <th scope="col">Nombre</th>
-      <th scope="col">Opciones</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>mdo</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>fat</td>
-    </tr>
-  </tbody>
-</table>
+    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+        <br>
+        <button type="button" class="btn btn-primary">Nuevo cliente</button>
+        <br>
+        <br>
+        <table class="table table-bordered table-success table-striped">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Opciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-warning">Elegir</button>
+                            <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <span class="visually-hidden">Toggle Dropdown</span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item text-warning bg-dark" href="#">Editar</a></li>
+                                <li><a class="dropdown-item text-info bg-dark" href="#">Eliminar</a></li>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>
+                                            
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-warning">Elegir</button>
+                            <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <span class="visually-hidden">Toggle Dropdown</span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item text-warning bg-dark" href="#">Editar</a></li>
+                                <li><a class="dropdown-item text-info bg-dark" href="#">Eliminar</a></li>
+                            </ul>
+                        </div>                        
+                    </td>
+                </tr>
+            </tbody>
+        </table>
 
-  </div>
-  <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">...</div>
-  <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">...</div>
+    </div>
+    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">...</div>
+    <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">...</div>
 </div>
