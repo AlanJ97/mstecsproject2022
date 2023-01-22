@@ -16318,6 +16318,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\alann\\Documents\\Programación Proyecto 2022\\ProjectCRUD\\mstecsproject\\Views\\Home\\agregarCliente.cshtml",
+      "TargetPath": "Views\\Home\\agregarCliente.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\alann\\Documents\\Programación Proyecto 2022\\ProjectCRUD\\mstecsproject\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"

@@ -1,5 +1,5 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Información";
 }
 <br>
 <nav>
@@ -17,7 +17,9 @@
     @* TAB SOBRE CLIENTES *@
     <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
         <br>
-        <button type="button" class="btn btn-primary">Nuevo cliente</button>
+        <a asp-controller="Home" asp-action="agregarCliente">
+            <input type="button" class="btn btn-primary" value="Nuevo cliente" />
+        </a>
         <br>
         <br>
         <table class="table table-bordered table-success table-striped">
@@ -50,7 +52,7 @@
                     <th scope="row">2</th>
                     <td>Jacob</td>
                     <td>
-                                            
+
                         <div class="btn-group">
                             <button type="button" class="btn btn-warning">Elegir</button>
                             <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split"
@@ -61,7 +63,7 @@
                                 <li><a class="dropdown-item text-warning bg-dark" href="#">Editar</a></li>
                                 <li><a class="dropdown-item text-info bg-dark" href="#">Eliminar</a></li>
                             </ul>
-                        </div>                        
+                        </div>
                     </td>
                 </tr>
             </tbody>
@@ -71,7 +73,7 @@
     @* TAB SOBRE PRODUCTOS *@
     <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
         <br>
-        <button type="button" class="btn btn-primary">Nuevo cliente</button>
+        <button type="button" class="btn btn-primary">Nuevo producto</button>
         <br>
         <br>
         <table class="table table-bordered table-success table-striped">
@@ -107,7 +109,7 @@
                     <td>Jacob</td>
                     <td>43.5</td>
                     <td>
-                                            
+
                         <div class="btn-group">
                             <button type="button" class="btn btn-warning">Elegir</button>
                             <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split"
@@ -118,7 +120,7 @@
                                 <li><a class="dropdown-item text-warning bg-dark" href="#">Editar</a></li>
                                 <li><a class="dropdown-item text-info bg-dark" href="#">Eliminar</a></li>
                             </ul>
-                        </div>                        
+                        </div>
                     </td>
                 </tr>
             </tbody>
@@ -127,8 +129,8 @@
     </div>
     @* TAB SOBRE FACTURAS *@
     <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">
-         <br>
-        <button type="button" class="btn btn-primary">Nuevo cliente</button>
+        <br>
+        <button type="button" class="btn btn-primary">Nueva factura</button>
         <br>
         <br>
         <table class="table table-bordered table-success table-striped">
@@ -164,7 +166,7 @@
                     <td>Jacob</td>
                     <td>03/12/2021</td>
                     <td>
-                                            
+
                         <div class="btn-group">
                             <button type="button" class="btn btn-warning">Elegir</button>
                             <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split"
@@ -175,7 +177,7 @@
                                 <li><a class="dropdown-item text-warning bg-dark" href="#">Editar</a></li>
                                 <li><a class="dropdown-item text-info bg-dark" href="#">Eliminar</a></li>
                             </ul>
-                        </div>                        
+                        </div>
                     </td>
                 </tr>
             </tbody>
