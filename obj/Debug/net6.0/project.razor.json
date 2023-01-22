@@ -16308,6 +16308,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\alann\\Documents\\Programación Proyecto 2022\\ProjectCRUD\\mstecsproject\\Views\\Home\\agregarFactura.cshtml",
+      "TargetPath": "Views\\Home\\agregarFactura.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\alann\\Documents\\Programación Proyecto 2022\\ProjectCRUD\\mstecsproject\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
@@ -16320,6 +16325,11 @@
     {
       "FilePath": "c:\\Users\\alann\\Documents\\Programación Proyecto 2022\\ProjectCRUD\\mstecsproject\\Views\\Home\\agregarCliente.cshtml",
       "TargetPath": "Views\\Home\\agregarCliente.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\alann\\Documents\\Programación Proyecto 2022\\ProjectCRUD\\mstecsproject\\Views\\Home\\agregarProducto.cshtml",
+      "TargetPath": "Views\\Home\\agregarProducto.cshtml",
       "FileKind": "mvc"
     },
     {

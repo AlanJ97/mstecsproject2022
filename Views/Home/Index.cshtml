@@ -73,7 +73,9 @@
     @* TAB SOBRE PRODUCTOS *@
     <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
         <br>
-        <button type="button" class="btn btn-primary">Nuevo producto</button>
+        <a asp-controller="Home" asp-action="agregarProducto">
+            <input type="button" class="btn btn-primary" value="Nuevo producto" />
+        </a>
         <br>
         <br>
         <table class="table table-bordered table-success table-striped">
@@ -130,7 +132,9 @@
     @* TAB SOBRE FACTURAS *@
     <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">
         <br>
-        <button type="button" class="btn btn-primary">Nueva factura</button>
+        <a asp-controller="Home" asp-action="agregarFactura">
+            <input type="button" class="btn btn-primary" value="Nueva factura" />
+        </a>
         <br>
         <br>
         <table class="table table-bordered table-success table-striped">

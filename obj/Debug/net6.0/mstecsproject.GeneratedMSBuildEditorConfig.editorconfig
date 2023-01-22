@@ -8,41 +8,49 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = mstecsproject
 build_property.RootNamespace = mstecsproject
-build_property.ProjectDir = C:\Users\alann\Documents\Programación Proyecto 2022\ProjectCRUD\mstecsproject\
+build_property.ProjectDir = c:\Users\alann\Documents\Programación Proyecto 2022\ProjectCRUD\mstecsproject\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\alann\Documents\Programación Proyecto 2022\ProjectCRUD\mstecsproject
+build_property.MSBuildProjectDirectory = c:\Users\alann\Documents\Programación Proyecto 2022\ProjectCRUD\mstecsproject
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/alann/Documents/Programación Proyecto 2022/ProjectCRUD/mstecsproject/Views/Home/agregarCliente.cshtml]
+[c:/Users/alann/Documents/Programación Proyecto 2022/ProjectCRUD/mstecsproject/Views/Home/agregarCliente.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxhZ3JlZ2FyQ2xpZW50ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alann/Documents/Programación Proyecto 2022/ProjectCRUD/mstecsproject/Views/Home/Index.cshtml]
+[c:/Users/alann/Documents/Programación Proyecto 2022/ProjectCRUD/mstecsproject/Views/Home/agregarFactura.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxhZ3JlZ2FyRmFjdHVyYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/alann/Documents/Programación Proyecto 2022/ProjectCRUD/mstecsproject/Views/Home/agregarProducto.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxhZ3JlZ2FyUHJvZHVjdG8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/alann/Documents/Programación Proyecto 2022/ProjectCRUD/mstecsproject/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alann/Documents/Programación Proyecto 2022/ProjectCRUD/mstecsproject/Views/Home/Privacy.cshtml]
+[c:/Users/alann/Documents/Programación Proyecto 2022/ProjectCRUD/mstecsproject/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alann/Documents/Programación Proyecto 2022/ProjectCRUD/mstecsproject/Views/Shared/Error.cshtml]
+[c:/Users/alann/Documents/Programación Proyecto 2022/ProjectCRUD/mstecsproject/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alann/Documents/Programación Proyecto 2022/ProjectCRUD/mstecsproject/Views/Shared/_ValidationScriptsPartial.cshtml]
+[c:/Users/alann/Documents/Programación Proyecto 2022/ProjectCRUD/mstecsproject/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alann/Documents/Programación Proyecto 2022/ProjectCRUD/mstecsproject/Views/_ViewImports.cshtml]
+[c:/Users/alann/Documents/Programación Proyecto 2022/ProjectCRUD/mstecsproject/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alann/Documents/Programación Proyecto 2022/ProjectCRUD/mstecsproject/Views/_ViewStart.cshtml]
+[c:/Users/alann/Documents/Programación Proyecto 2022/ProjectCRUD/mstecsproject/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alann/Documents/Programación Proyecto 2022/ProjectCRUD/mstecsproject/Views/Shared/_Layout.cshtml]
+[c:/Users/alann/Documents/Programación Proyecto 2022/ProjectCRUD/mstecsproject/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-4i8tze32pk
