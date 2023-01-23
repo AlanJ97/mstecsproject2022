@@ -33,6 +33,10 @@ public class HomeController : Controller
         return View();
     }
 
+    public IActionResult editarFactura()
+    {
+        return View();
+    }
     public IActionResult Privacy()
     {
         return View();

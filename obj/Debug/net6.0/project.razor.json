@@ -16343,6 +16343,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\alann\\Documents\\Programación Proyecto 2022\\ProjectCRUD\\mstecsproject\\Views\\Home\\editarFactura.cshtml",
+      "TargetPath": "Views\\Home\\editarFactura.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\alann\\Documents\\Programación Proyecto 2022\\ProjectCRUD\\mstecsproject\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
