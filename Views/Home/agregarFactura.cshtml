@@ -1,0 +1,63 @@
+@{
+    ViewData["Title"] = "Nueva factura";
+}
+<br>
+<br>
+<div>
+    <h3>Encabezado</h3>
+    <br>
+    <table class="table table-borderless">
+        <tbody>
+            <tr>
+                <th scope="row">
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Elegir cliente</option>
+                        <option value="1">Juan</option>
+                        <option value="2">Toño</option>
+                        <option value="3">Maria</option>
+                    </select>
+                </th>
+                <td>
+                    <input type="date" id="idate" name="date">
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<div>
+    <h3>Detalles de facturación</h3>
+
+
+
+    <form>
+        <div class="mb-3">
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Elegir cliente</option>
+                <option value="1">Juan</option>
+                <option value="2">Toño</option>
+                <option value="3">Maria</option>
+            </select></th>
+        </div>
+        <table class="table table-borderless">
+            <tbody>
+                <tr>
+                    <th scope="row">
+                        <label for="exampleInputPassword1" class="form-label ">Precio</label>
+                        <input type="text" readonly class="form-control-plaintext" id="staticPrice" value="12.4">
+                    </th>
+                    <td>
+                        <label for="exampleInputPassword1" class="form-label">Cantidad</label>
+                        <input type="text" class="form-control-plaintext" id="staticCantidad" value="4">
+                    </td>
+                    <td>
+                        <label for="exampleInputPassword1" class="form-label">Importe</label>
+                        <input type="text" readonly class="form-control-plaintext" id="staticCantidad" value="4">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <button type="submit" class="btn btn-primary">Agregar factura</button>
+    </form>
+
+</div>
